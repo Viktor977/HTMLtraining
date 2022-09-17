@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* main styles */
+.main{
+display: flex;
+flex-direction: row-reverse;
+background-color: #f5f7fa;
+width: 1200px;
+margin: 0 auto;
+}
+.main_content{
+background-color: #fff;
+}
+/* about projects */
+
+.project_title{
+font-size: 45px;
+color:blue;
+}
+/* about styles */
+.about{
+background-color: yellow;
+}
+.projects{
+    background-color: brown;
+    margin: 100px 90px 300px 60px;
+}
+/* work styles */
+.work{
+    background:cyan;
+    padding: 100px 40px 50px 20px;
+}
+/* education styles */
+.education{
+background-color: blue;
+}
+
+/* aside styles */
+.asidebar{
+background-color: #1e2939;
+}
+
