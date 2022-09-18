@@ -14,61 +14,131 @@ body {
 }
 
 .main_content {
-    background: #FFFFFF;
-    /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
-    padding: 142px 0px 0px 100px;
+    background: #FFFFFF;  
 }
 
 /* about projects */
 
 .project_title {
-    font-size: 45px;
-    color: blue;
 }
+    
 
 /* about styles */
 
 .projects {
-    margin: 100px 0px 100px 0px;
+  
 }
 
 .projects a {
-    color: black;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px
+   
 }
 
 /* work styles */
 
 .work {
-    padding: 0px 40px 50px 20px;
+   
 }
 
 
 /* aside styles */
 
 .asidebar {
-    background-color: #1e2939;
-    color: #fff;
-    margin-top: -12px;
-    margin-left: 40px;
+    background-color: #1e2939; 
+    width: 370px;
+}
+
+.contacts,
+.techskills,
+.softskilss{
+   margin-left: 40px;
+}
+
+.contacts{
+    margin-bottom: 50px;
 }
 
 .info {
     padding-left: 33px;
 }
 
-.asidebar li {
+.photo{
+    width: 370px; 
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.asidebar_title{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10%;
+}
+
+.contact_type{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;  
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.contact_link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565E6A;
+}
+
+.tech_skills_list{
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 17px;
+}
+
+.tech_skills_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+} 
+
+.tech_skills_item{
     color: #FB6D3A;
 }
 
-.asidebar span {
-    color: #E5E5E5;
+.asidebar_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;  
+    color: #FFFFFF;
 }
 
-img {
-    padding-top: 40px;
+.soft_skills_list{
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 17px;
 }
+.soft_skills_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;   
+}
+
+.soft_skills_item{
+    color: #FB6D3A;
+}
+
+
