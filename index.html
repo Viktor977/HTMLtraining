@@ -17,9 +17,9 @@
       <div class="main_content">
          <!--about user-->
         <div class="about">
-           <h2>Front-End Developer</h2>
-            <h1>Viktor Stepanov</h1>
-           <p>
+           <h2 class="about_position">Front-End Developer</h2>
+            <h1 class="about_name">Viktor Stepanov</h1>
+           <p class="about_description">
              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
              suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
@@ -28,27 +28,30 @@
         </div>
                <!--projects-->
         <div class="projects">        
-             <h3 class="projecy_title">Projects</h3>
-              <ol>          
-                 <li><span><a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</span></a>
-                  ........... [ HTML5, CSS3 ]</li>
-                 <li> <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                    ............ [ JavaScript ]</li>
-                 <li><a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                    ................ [ React.js, Node.js ]</li>
-               
-               <li><a href="https://productmanagerfirst.000webhostapp.com/">https://productmanagerfirst.000webhostapp.com/</a>
-                ................ [ PHP, jQuery ]</li>
+             <h3 class="title">Projects</h3>
+              <ol class="projects_list">                
+                 <li class="project_item">
+                    <span class="project">
+                      <a class="project_link" href="https://tangerine-crepe-249ab4.netlify.app/">https://tangerine-crepe-249ab4.netlify.app</a>
+                  .....................<span class="project_bracket">[</span>  HTML5, CSS,JS <span class="project_bracket">]</span>
+                     </span>  
+                  </li>                                    
+                   <li class="project_item">
+                      <span class="project">
+                         <a  class="project_link"href="https://productmanagerfirst.000webhostapp.com/">https://productmanagerfirst.000webhostapp.com</a>
+                      .....<span class="project_bracket">[</span> PHP, jQuery <span class="project_bracket">]</span>
+                      </span>
+                   </li>               
                </ol>
           </div>
                 <!--Works-->
          <div class="work">       
-             <h3>Work Experience</h3>
+             <h3 class="title">Work Experience</h3>
                  <!--Company 1-->
              <div>
-                <h4>Front-End Developer Freelance </h4>
-                <p>September 2019 - up to now   |   Country</p>
-                <ul>
+                <h4 class="work_position">Front-End Developer <span class="organization">Freelance </span></h4>
+                <p class="period">September 2019 - up to now   <span class="line">|</span>   Country</p>
+                <ul class="work_list">
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>                                                         
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                     <li>Risus commodo viverra maecenas.</li>
@@ -57,30 +60,30 @@
              </div>
                  <!--Company 2-->
              <div>
-                 <h4>Manager Roga & Kopyta New</h4>
-                 <p>March 2015 - October 2018   |   Country</p>
-                 <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>                                                         
-                    <li>Quis ipsum suspendisse ultrices gravida.</li>
-                    <li>Risus commodo viverra maecenas.</li>  
+                 <h4 class="work_position">Manager <span class="organization">Roga & Kopyta New</span> </h4>
+                 <p class="period">March 2015 - October 2018    <span class="line">|</span>   Country</p>
+                 <ul class="work_list">
+                    <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>                                                         
+                    <li class="work_list_item">Quis ipsum suspendisse ultrices gravida.</li>
+                    <li class="work_list_item">Risus commodo viverra maecenas.</li>  
                  </ul>
               </div>
                   <!--Company 3-->
               <div> 
-                <h4>Manager Roga & Kopyta LLC </h4>
-                <p>June 2014 - February 2015   |   Country </p>           
-                <ul>
-                    <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>                                                         
-                    <li> Quis ipsum suspendisse ultrices gravida.</li>
-                    <li>Risus commodo viverra maecenas.</li>               
+                <h4 class="work_position">Manager <span class="organization">Roga & Kopyta LLC</span></h4>
+                <p class="period">June 2014 - February 2015    <span class="line">|</span>   Country </p>           
+                <ul class="work_list">
+                    <li class="work_list_item"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>                                                         
+                    <li class="work_list_item"> Quis ipsum suspendisse ultrices gravida.</li>
+                    <li class="work_list_item">Risus commodo viverra maecenas.</li>               
                 </ul>
               </div>
                   <!--Education-->     
               <div class="education">
-                <h4>Education</h4>
-                <p>National University of Radioelectronics</p>          
-                <p>Management</p>
-               <p>September 2009 - June 2014   |   Country</p>
+                <h4 class="title">Education</h4>
+                <p ><span class="organization"> National University of Radioelectronics</span></p>          
+                <p  class="work_position">Management</p>
+               <p class="period">September 2009 - June 2014   <span class="line">|</span> Country</p>
               </div>
            </div>
         </div>
@@ -113,8 +116,7 @@
                    <li class="tech_skills_item"><span class="tech_skills_text">HTML5</span></li>
                    <li class="tech_skills_item"><span class="tech_skills_text">SCC</span></li>
                    <li class="tech_skills_item"><span class="tech_skills_text">GIT</span></li>                  
-                   <li class="tech_skills_item"><span class="tech_skills_text">JavaScript</span></li>
-                   <li class="tech_skills_item"><span class="tech_skills_text">Angular</span></li>               
+                   <li class="tech_skills_item"><span class="tech_skills_text">JavaScript</span></li>                              
                </ul>                                                  
            </div>
            <!--Soft scills-->
